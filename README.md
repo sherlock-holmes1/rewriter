@@ -36,3 +36,5 @@ A Chrome extension that processes text using GPT-4 with customizable system prom
 
 - OpenAI API key
 - Chrome browser (version 88 or later)
+
+# prompt I used to create this extension
