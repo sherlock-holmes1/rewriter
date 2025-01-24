@@ -38,3 +38,9 @@ A Chrome extension that processes text using GPT-4 with customizable system prom
 - Chrome browser (version 88 or later)
 
 # prompt I used to create this extension
+
+I want you to create a Chrome extension project for me for the scratch in the current folder. This extension should have a separate settings window, which I want to open using a context menu. In the settings, I want to be able to specify the OpenAI API key and the system prompt for the GPT-4o model. The default value is "Please make it readable".
+The extension itself should show a window, which opens with a left mouse button click. This window should have a text area for entering a text. Upon pasting a text, the extension should send an OpenAI API request, with a system prompt and text.
+The response from the model should be shown in the window. Also, there should be a "copy to clipboard" button which copies the model response to the clipboard.
+
+Also, create a readme file with an explanation about how to install the extension locally.
