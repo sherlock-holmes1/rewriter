@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GPT-4 Processor Settings</title>
+  <style>
+    body {
+      width: 400px;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
+    label {
+      display: block;
+      margin: 10px 0 5px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>GPT-4 Processor Settings</h1>
+  
+  <label for="apiKey">OpenAI API Key:</label>
+  <input type="text" id="apiKey" placeholder="Enter your OpenAI API key">
+  
+  <label for="systemPrompt">System Prompt:</label>
+  <textarea id="systemPrompt" rows="4"></textarea>
+  
+  <button id="save">Save Settings</button>
+
+  <script src="options.js"></script>
+</body>
+</html>
